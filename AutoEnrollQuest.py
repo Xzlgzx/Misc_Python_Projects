@@ -24,8 +24,9 @@ def notification(status):
         time.sleep(1)
 
 
+driver_path = r'C:\Users\Administrator\PycharmProjects\PyTrademark\chrome_driver\chromedriver.exe'
 prompt = input('enter 1 if during the day, 0 during the night')
-driver = webdriver.Chrome(executable_path=r'C:\Users\Administrator\PycharmProjects\PyTrademark\chrome_driver\chromedriver.exe')
+driver = webdriver.Chrome(executable_path=driver_path)
 driver.get('https://adfs.uwaterloo.ca/adfs/ls/idpinitiatedsignon.aspx?LoginToRP=urn:quest.ss.apps.uwaterloo.ca')
 time.sleep(75)
 driver.switch_to.frame(driver.find_element_by_tag_name("iframe"))
@@ -55,4 +56,3 @@ while True:
         print('Time that exception occurred:',datetime.now())
         if int(prompt):
             notification('f')
-
