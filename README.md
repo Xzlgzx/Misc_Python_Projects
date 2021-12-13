@@ -1,6 +1,7 @@
 This section contains miscellaneous Python code that I have written in the beginning stages of my career or coding challenges I received from companies. 
 
 # Instruction for Automate_PDF_Bulk_Action.py
+Last updated: 2019-08-21
 
 This program reads in a PDF file, and outputs resized, individual pages of the PDF that contains a certain string (without spaces)
 
