@@ -1,0 +1,7 @@
+{
+  "user":"zlxia",
+  "password":"thomasthexia",
+  "database":"tic_tac_toe_ai",
+  "host":"database-1.cldursljaf2x.us-east-2.rds.amazonaws.com",
+  "port":"5432"
+}
