@@ -5,37 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77354b23-843e-4f1a-ba36-7fe37190c63f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/.idea/rGraphicsSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/.idea/rSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/.idea/tic_tac_toe_ai.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/aws_rds.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/dbconnect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/gamestat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/stgame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/ttta-client" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/ttta-client/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/ttta-client/src/Dropdown/index.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/ttta-client/src/Dropdown/styles.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/ttta-client/src/module-name.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tic_tac_toe_ai/ttta-client/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Misc_Python_Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc_python_projects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic_tac_toe_ai/ttta-client" beforeDir="false" afterPath="$PROJECT_DIR$/tic_tac_toe_ai/ttta-client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tic_tac_toe_ai/ttta-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tic_tac_toe_ai/ttta-client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tic_tac_toe_ai/ttta-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tic_tac_toe_ai/ttta-client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tic_tac_toe_ai/ttta-client/src/App.test.tsx" beforeDir="false" />
@@ -66,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tic_tac_toe_ai" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -118,6 +93,7 @@
       <workItem from="1650582885693" duration="22068000" />
       <workItem from="1651247011803" duration="1900000" />
       <workItem from="1653860274244" duration="371000" />
+      <workItem from="1653861373682" duration="105000" />
     </task>
     <servers />
   </component>

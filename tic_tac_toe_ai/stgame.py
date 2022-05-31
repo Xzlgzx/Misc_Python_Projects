@@ -16,15 +16,20 @@ def process_game(column, row, clicked=False):
         st.session_state.is_user = True
     if st.session_state.board[column, row] != game.BLANK:
         st.warning("You have already selected this box.")
+    elif st.session_state.end_of_game:
+        st.warning("Game is already over.")
     else:
         st.session_state.board[column, row] = st.session_state.cur_player
         check = game.check_game_state(list(st.session_state.board.flatten()))
-        if check == game.GameStatus.none:
+        if check == game.GameStatus.none.value:
             change_player()
         else:
             st.session_state.end_of_game = True
-            game_stat.end_game()
-
+            if check == game.GameStatus.draw.value:
+                st.warning("Tie game!")
+            else:
+                st.warning("There is a winner!")
+            # game_stat.end_game()
 
 
 def button(refresh_button=False):
@@ -54,6 +59,11 @@ def button(refresh_button=False):
                       args=(col, 2, True)
                      )
 
+
+st.write("[Source code for the game](https://github.com/Xzlgzx/Py_Projects/blob"
+         "/master/tic_tac_toe_ai/game.py)")
+st.write("[Source code for the frontend](https://github.com/Xzlgzx/Py_Projects/"
+         "blob/master/tic_tac_toe_ai/stgame.py)")
 
 if "initialize" not in st.session_state:
     st.title("Tic-Tac-Toe.")
@@ -96,8 +106,7 @@ if "initialize" in st.session_state or confirmation:
                                          list(st.session_state.board.flatten()))
             process_game(*user2_move)
     elif st.session_state.player1 == st.session_state.player2 == "User":
-        if not st.session_state.end_of_game:
-            button()
+        button()
     elif st.session_state.player1 == "User":
         button(refresh_button=True)
         if not st.session_state.end_of_game and st.session_state.is_user:
@@ -112,5 +121,4 @@ if "initialize" in st.session_state or confirmation:
                                          st.session_state.cur_player,
                                          list(st.session_state.board.flatten()))
             process_game(*user1_move)
-        if not st.session_state.end_of_game:
-            button()
+        button()

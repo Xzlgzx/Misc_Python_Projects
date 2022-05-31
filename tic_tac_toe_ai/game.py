@@ -48,7 +48,7 @@ def check_game_state(game):
     if game.count(Players.two.value) + game.count(Players.one.value) == 9:
         return GameStatus.draw.value
     else:
-        return GameStatus.draw.none
+        return GameStatus.none.value
 
 
 def level_easy(the_game):
